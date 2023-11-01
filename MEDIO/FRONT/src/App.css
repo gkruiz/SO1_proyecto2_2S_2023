@@ -1,0 +1,38 @@
+
+
+.principal{
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.tamano{
+  justify-content: center;
+text-align: center;
+}
+
+.circle{
+  width: 50%;
+  margin: auto;
+}
+
+
+
+.graphs{
+  margin: auto;
+  width: 50%;
+}
+
+
+.grafica{
+
+  width: 100%;
+}
+
+.cuadro{
+
+  width: 100%;
+}

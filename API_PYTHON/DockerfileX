@@ -1,0 +1,24 @@
+
+# syntax=docker/dockerfile:1
+
+# base python image for custom image
+FROM python:3.9.13-slim-buster
+
+# create working directory and install pip dependencies
+WORKDIR /hello-py
+
+
+RUN pip3 install mysql-connector-python && \
+    pip3 install -U flask-cors && \
+    pip3 install redis  && \
+    pip3 install redis[hiredis] && \
+    pip3 install waitress
+
+
+# copy python project files from local to /hello-py image working directory
+COPY api.py .
+COPY ips.sh .
+
+# run the flask server  
+
+CMD ["python3", "-u", "api.py", "run", "--host=0.0.0.0"]
