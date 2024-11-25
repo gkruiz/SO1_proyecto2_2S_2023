@@ -6,7 +6,7 @@ SO1_proyecto2_2S_2023
 ### Kevin Golwer Enrique Ruiz Barbales 201603009
 
 <img src="https://cunsac.usac.edu.gt/wp-content/uploads/2022/03/USAC_lineal_azul.png"  style="height: 300px; width:900px;"/>
-
+SO1_proyecto2_2S_2023
 
 
 ### Introduccion
